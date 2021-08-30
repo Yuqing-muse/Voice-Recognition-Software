@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RJJH_SpeechRecognition</string>
+    <string name="str_text2">音量</string>
+    <string name="str_text1">音量控制</string>
+    <string name="title_home">Home</string>
+    <string name="placeHolder">点击按钮进行语音识别（可识别中文、数字和英文等常用字符）</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

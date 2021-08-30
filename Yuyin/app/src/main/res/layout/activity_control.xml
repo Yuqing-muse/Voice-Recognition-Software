@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="chaoszelo.ControlActivity">
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF"
+        >
+
+        <TextView
+            android:id="@+id/myText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="153dp"
+            android:layout_y="30dp"
+            android:text="@string/str_text1"
+            android:textColor="#000000"
+            android:textSize="16sp"></TextView>
+
+        <TextView
+            android:id="@+id/myText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="13dp"
+            android:layout_y="248dp"
+            android:text="@string/str_text2"
+            android:textColor="#000000"
+            android:textSize="16sp"></TextView>
+
+        <ProgressBar
+            android:id="@+id/myProgress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:layout_x="67dp"
+            android:layout_y="253dp"
+            android:max="7"
+            android:progress="5"></ProgressBar>
+
+        <ImageButton
+            android:id="@+id/downButton"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_x="21dp"
+            android:layout_y="280dp"
+            android:src="@drawable/arrow2_s"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/upButton"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_x="257dp"
+            android:layout_y="280dp"
+            android:src="@drawable/arrow_s"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/normalButton"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_x="69dp"
+            android:layout_y="412dp"
+            android:src="@drawable/squre"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/muteButton"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_x="140dp"
+            android:layout_y="280dp"
+            android:src="@drawable/stop_s"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/vibrateButton"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_x="294dp"
+            android:layout_y="414dp"
+            android:src="@drawable/squre"></ImageButton>
+
+        <ImageView
+            android:id="@+id/myImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="102dp"
+            android:layout_y="66dp"
+            android:src="@drawable/kei"
+            tools:layout_editor_absoluteX="167dp"
+            tools:layout_editor_absoluteY="126dp" />
+    </AbsoluteLayout>
+</android.support.constraint.ConstraintLayout>
